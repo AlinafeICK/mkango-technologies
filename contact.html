@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mkango Technologies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="index.html"><h2>Mkango<span>Tech</span></h2></a>
+                </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1 class="page-hero-title">Get In Touch</h1>
+                <p class="page-hero-text">Ready to power your growth with technology? We're here to help you find the perfect solution for your business needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Methods Section -->
+    <section class="contact-methods">
+        <div class="container">
+            <div class="contact-methods-grid">
+                <div class="contact-method">
+                    <div class="contact-method-icon">📞</div>
+                    <h3>Call Us</h3>
+                    <p>Speak directly with our team</p>
+                    <div class="contact-details">
+                        <a href="tel:+265994659482" class="contact-link">+265 994 659 482</a>
+                        <a href="tel:+265884968841" class="contact-link">+265 884 968 841</a>
+                    </div>
+                </div>
+                <div class="contact-method">
+                    <div class="contact-method-icon">📧</div>
+                    <h3>Email Us</h3>
+                    <p>Send us your inquiries</p>
+                    <div class="contact-details">
+                        <a href="mailto:mkangotech@gmail.com" class="contact-link">mkangotech@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-method">
+                    <div class="contact-method-icon">💬</div>
+                    <h3>WhatsApp</h3>
+                    <p>Chat with us instantly</p>
+                    <div class="contact-details">
+                        <a href="https://wa.me/265994659482" class="contact-link">Start Chat</a>
+                    </div>
+                </div>
+                <div class="contact-method">
+                    <div class="contact-method-icon">🕒</div>
+                    <h3>Business Hours</h3>
+                    <p>When we're available</p>
+                    <div class="contact-details">
+                        <p>Mon - Fri: 8:00 AM - 6:00 PM</p>
+                        <p>Sat: 9:00 AM - 1:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Info Section -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-main-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+                    
+                    <form class="contact-form" id="mainContactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">Full Name *</label>
+                                <input type="text" id="fullName" name="fullName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="it-support">IT Support & Maintenance</option>
+                                <option value="software-installation">Software Installation</option>
+                                <option value="networking">Networking Solutions</option>
+                                <option value="web-hosting">Web Hosting & Domains</option>
+                                <option value="web-development">Website Development</option>
+                                <option value="software-development">Software Development</option>
+                                <option value="training">IT Training</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell us about your project or inquiry..." required></textarea>
+                        </div>
+                        
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <h2>Get in Touch</h2>
+                    <p>We're always happy to discuss new projects and opportunities.</p>
+                    
+                    <div class="contact-info-details">
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">📍</div>
+                            <div class="contact-info-content">
+                                <h4>Based in Malawi</h4>
+                                <p>Serving clients across the country</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">📞</div>
+                            <div class="contact-info-content">
+                                <h4>Phone Numbers</h4>
+                                <p>+265 994 659 482</p>
+                                <p>+265 884 968 841</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">📧</div>
+                            <div class="contact-info-content">
+                                <h4>Email Address</h4>
+                                <p>mkangotech@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">🕒</div>
+                            <div class="contact-info-content">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                                <p>Saturday: 9:00 AM - 1:00 PM</p>
+                                <p>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                            <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+                            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Quick answers to common questions</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How quickly do you respond to inquiries?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We typically respond to all inquiries within 2-4 hours during business hours. For urgent matters, we recommend calling us directly.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer emergency IT support?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer emergency IT support for critical issues. Additional rates may apply for after-hours emergency services.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What areas in Malawi do you serve?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We serve clients across Malawi. For on-site services, we primarily operate in major urban areas, but we provide remote support nationwide.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer customized software solutions?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We specialize in creating tailored software solutions for businesses of all sizes. Contact us to discuss your specific requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Start Your Project Today</h2>
+                <p class="cta-text">Don't wait to transform your business with technology. Contact us now for a free consultation.</p>
+                <div class="cta-buttons">
+                    <a href="tel:+265994659482" class="btn btn-primary">Call Now</a>
+                    <a href="mailto:mkangotech@gmail.com" class="btn btn-secondary">Email Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mkango<span>Tech</span></h3>
+                    <p>Empowering digital transformation across Africa through smart, sustainable, and innovative IT solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">IT Support</a></li>
+                        <li><a href="services.html">Software Development</a></li>
+                        <li><a href="services.html">Web Hosting</a></li>
+                        <li><a href="services.html">Networking</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mkango Technologies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
